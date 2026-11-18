@@ -1,0 +1,71 @@
+{
+  "selected_model": "Random Forest",
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          150,
+          0
+        ],
+        [
+          0,
+          150
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          150,
+          0
+        ],
+        [
+          0,
+          150
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          150,
+          0
+        ],
+        [
+          0,
+          150
+        ]
+      ]
+    }
+  },
+  "feature_importances": {
+    "suspicious_keyword_count": 0.3479,
+    "has_https": 0.2415,
+    "domain_length": 0.1393,
+    "url_length": 0.0728,
+    "digit_ratio": 0.0633,
+    "num_subdomains": 0.0466,
+    "num_hyphens": 0.0444,
+    "num_dots": 0.0223,
+    "has_ip_address": 0.0103,
+    "is_shortened": 0.01,
+    "has_unusual_port": 0.0014,
+    "num_special_chars": 0.0003,
+    "has_at_symbol": 0.0001
+  }
+}
